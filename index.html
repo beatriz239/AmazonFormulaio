@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="ValorNome"></div>
+    <div class="form-container">
+            <img src="Captura de tela 2024-08-21 100339.png" alt="">
+            <br>   
+            <h1>Criar conta</h1>
+            <form onsubmit="enviarFormulario(event)">
+                <label for="nome">Seu nome</label>
+                <input type="text" id="nome">
+                <br>
+                <label for="numero">Número de celular</label>
+                <input type="number" id="numero">
+                <br>
+                <label for="email">e-mail</label>
+                <input type="text" id="email">
+                <br>
+                <label for="senha">Senha</label>
+                <input type="password" id="senha">
+                <br>
+                <label for="senha2">Insira sua senha novamente</label>
+                <input type="password" id="senha2">
+                <br>
+                <label for="estado">Estado</label>
+                <input type="text" id="estado">
+                <br>
+                <label for="cidade">Cidade</label>
+                <input type="text" id="cidade">
+                <br>
+                <label for="cep">CEP</label>
+                <input type="text" id="cep">
+                <br>
+                <br>
+                <div class="botaoCaixa">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

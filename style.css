@@ -1,0 +1,61 @@
+body {
+    display: flex;/*flexivel para centralizar conteúdo*/
+    justify-content: center;/* alinhar horizontal*/
+    align-items: center;/*alinhar vertical*/
+    height: 100vh;/*definindo altura*/
+    margin: 0; /*Remove margens*/ 
+    font-family: Arial, sans-serif; /* Definindo fonte */
+}
+
+.form-container {
+    text-align: left; /* Alinhando o texto na esquerda */
+    border: 1px solid #ccc;/*borda de 1 pixel*/
+    padding: 40px;/*pixel  de preenchimento das bordas*/
+    border-radius: 8px;/* Arrendondar os cantos*/
+    width: 350px;/*definir a largura*/
+
+}
+
+label {
+    display: block; /* Faz ocupar uma linha inteira */
+    margin-bottom: 5px; /* Adiciona um pouco de espaço abaixo*/
+    font-weight: bold; /* Deixa em negrito */
+}
+
+input {
+    width: 100%; /* Faz com que os inputs ocupem toda a largura disponível */
+    margin-bottom: 10px; /* Adiciona espaço entre os textos */
+    padding: 8px; /* Adiciona preenchimento interno aos inputs */
+    box-sizing: border-box; /* Inclui padding e border na largura dos inputs */
+    border: 1px solid #ccc; /* Adiciona uma borda padrão aos inputs */
+    border-radius: 4px; /* Adiciona bordas arredondadas  */
+}
+
+button {
+    border-radius: 5px;
+    background: #ffbb0f;
+    font-size: 1.2rem; /* Ajusta o tamanho da fonte */
+    font-weight: bold;
+    padding: 10px 20px; /* Adiciona preenchimento interno ao botão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+.botaoCaixa {
+    display: flex;
+    justify-content: center; /* Centraliza o botão horizontalmente */
+    align-items: center;
+    width: 100%;
+    margin-top: 20px; /* Adiciona margem superior para espaçamento em relação aos campos de entrada */
+}
+
+.botaoCaixa > button {
+    width: 100%; /* Define a largura do botão para preencher o contêiner */
+    height: 50px; /* Define a altura do botão */
+    outline: none;
+    border: none;
+    font-size: 1.2rem; /* Ajusta o tamanho da fonte do botão */
+    font-weight: bold;
+    border-radius: 5px;
+    background: #ffbb0f; /* Cor de fundo do botão */
+    color: #111; /* Cor do texto do botão */
+}
